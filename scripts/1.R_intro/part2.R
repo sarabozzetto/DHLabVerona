@@ -31,7 +31,8 @@ cat("The cat is on the table", file = "Cat.txt")
 # save the file, and then push to the GitHub repo 
 
 text_doyle <- readLines("samples/Doyle_Study_1887.txt")
-strsplit(text_doyle, " ")
+text_doyle_2 <- paste(text_doyle, collapse = "\n")
+strsplit(text_doyle_2, " ")
 
 ### Your Turn (1) - end
 
